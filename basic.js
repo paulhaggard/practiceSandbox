@@ -15,3 +15,14 @@ console.log('Generate a random number: ' + rando);
 var rando1 = rando * 10;
 console.log('Make it between 1 and 10:' + rando1);
 console.log(Object.getOwnPropertyNames(Math));
+
+console.log("\n\nNow we want to practice arrow functions.\n");
+function fn1(params) {
+    return params * 2;
+  };
+ var fn2 = (params) => params * 2;
+
+
+console.log("For fn1, we use return.  For fn2, we use the arrow function");
+console.log(`fn1 returns ${fn1(4)}`);
+console.log(`fn2 returns ${fn2(4)}`);
